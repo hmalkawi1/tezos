@@ -2,8 +2,8 @@ TEZOS
 =====
 
 Tezos is a distributed consensus platform with meta-consensus capability. Tezos
-not only comes to consensus about state, like BTC or ETH. It also comes to
-consensus about how the protocol and the nodes should adapt and upgrade.
+comes to consensus about state, like BTC or ETH. It also comes to
+consensus about how the protocol and nodes should adapt and upgrade.
 
 See https://www.tezos.com/ for more information about the project.
 
@@ -11,10 +11,11 @@ See https://www.tezos.com/ for more information about the project.
 Build instructions
 ------------------
 
-To compile Tezos, you need an OCaml compiler (version 4.04.0) and all the
-libraries listed in `src/tezos-deps.opam`.
+To compile Tezos...
+- You need an OCaml compiler (version 4.04.0) 
+- All the libraries listed in `src/tezos-deps.opam`.
 
-The best way to install all dependencies is by first installing
+Install the package manager to overcome and dependay issues
 [OPAM](https://opam.ocaml.org/), the OCaml package manager.
 
 Create a new switch alias for Tezos. A switch is your own version of the OPAM
